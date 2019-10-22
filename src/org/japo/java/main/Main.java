@@ -22,11 +22,15 @@ package org.japo.java.main;
 public class Main {
 
     public static void main(String[] args) {
-        //Constante
+        //Constante del año. Modificamos el ejercicio y añadimos MSG
         final int ANY_LLEGADA_LUNA = 1969;
+        final String MSG = "El Hombre llegó a la Luna en ";
         
         // Mensaje   %d (usando un entero con printf)   %n para siguiente línea
         System.out.printf("El hombre llegó a la Luna en %d.%n", + ANY_LLEGADA_LUNA);
+        
+        //Forma alternativa, con dos constantes
+        System.out.println(MSG + ANY_LLEGADA_LUNA + ".");
         
     }
 }
